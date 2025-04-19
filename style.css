@@ -1,0 +1,58 @@
+*{
+    font-family: 'Poppins';
+    margin: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+body{
+    background-color: rgb(175, 124, 124);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.tema{
+    position: absolute;
+    left: 90%;
+    top: 0;
+    padding:  5px 0 4px 0;
+}
+
+
+footer{
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+footer p:hover{
+    transform: scale(1.07);
+    white-space: nowrap;
+    outline: none;
+    color: #13E8E9;
+}
+
+footer a ion-icon {
+    color: #13E8E9;
+    font-size: 20px;
+    margin-left: 6px;
+    transition: transform 0.3s;
+}
+
+footer a ion-icon:hover{
+    transform: scale(1.2);
+}
